@@ -43,7 +43,6 @@ st.title("🤖 ReportGPT - Generez des rapports avec vos données")
 openai_api_key = st.sidebar.text_input(
     "Clé d'API OpenAI",
     type="password",
-    value="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",
 )
 
 intermediate_reports = st.sidebar.checkbox("Activer les rapports intermédiaires")
